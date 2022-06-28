@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/DianaCandy/FileProvider/config"
+)
 
 func main() {
-	fmt.Println("Hello world")
+	fmt.Println("Reading config")
+	config.Init()
 }
